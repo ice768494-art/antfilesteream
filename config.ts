@@ -1,1 +1,0 @@
-export const API=(process.env.NEXT_PUBLIC_FILETOLINK_API||"").replace(/\/+$/,""); export const streamUrl=(token:string)=>`${API}/dl/${encodeURIComponent(token)}`;
